@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="/src/css/style.css" />
+		<title>Northwest Charters</title>
+	</head>
+	<body>
+		<!-- NAVBAR -->
+		<div class="navbar-wrapper">
+			<nav class="navbar">
+				<div class="brand-title">
+					<a href="/">
+						<img src="/src/img/logo.png" alt="Northwest Charters Logo" />
+					</a>
+				</div>
+				<a href="#" class="toggle-button">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</a>
+				<div class="navbar-links">
+					<ul>
+						<li><a href="/" class="active">Home</a></li>
+						<li><a href="#charters">Charters</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- END OF NAVBAR -->
+		<!-- HERO -->
+		<section id="hero">
+			<div class="hero-overlay">
+				<div class="hero-text">
+					<h1 class="section-head">
+						Private charter trips throughout <br />
+						beautiful British Columbia
+					</h1>
+					<!-- <button class="btn btn-green">Our Charters</button> -->
+					<button class="btn btn-green" onclick="window.location.href='#charters'">Our Charters</button>
+				</div>
+			</div>
+		</section>
+		<!-- END OF HERO -->
+		<!-- SUBSECTION -->
+		<section id="subsection">
+			<div class="subsection-image"></div>
+			<!-- <img src="/src/img/subhead.png" alt="Mountain landscape" /> -->
+			<div class="subsection-text">
+				<h2 class="section-head">Reach New Places</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+					magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+				<button class="btn btn-dark" onclick="window.location.href='#charters'">Our Charters</button>
+			</div>
+		</section>
+		<!-- END OF SUBSECTION -->
+		<!-- CHARTERS -->
+		<section id="charters">
+			<h2 class="section-head">Our Charters</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+				magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+			</p>
+			<div id="charter-grid">
+				<div class="charter-cell" style="background-image: url('/src/img/vancouver.png')">
+					<div class="charter-overlay">
+						<div class="charter-text">
+							<p>Vancouver</p>
+							<a href="#">Book now</a>
+						</div>
+					</div>
+				</div>
+				<div class="charter-cell" style="background-image: url('/src/img/squamish.png')">
+					<div class="charter-overlay">
+						<div class="charter-text">
+							<p>Squamish</p>
+							<a href="#">Book now</a>
+						</div>
+					</div>
+				</div>
+				<div class="charter-cell" style="background-image: url('/src/img/pemberton.png')">
+					<div class="charter-overlay">
+						<div class="charter-text">
+							<p>Pemberton</p>
+							<a href="#">Book now</a>
+						</div>
+					</div>
+				</div>
+				<div class="charter-cell" style="background-image: url('/src/img/tofino.png')">
+					<div class="charter-overlay">
+						<div class="charter-text">
+							<p>Tofino</p>
+							<a href="#">Book now</a>
+						</div>
+					</div>
+				</div>
+				<div class="charter-cell" style="background-image: url('/src/img/uculet.png')">
+					<div class="charter-overlay">
+						<div class="charter-text">
+							<p>Uculet</p>
+							<a href="#">Book now</a>
+						</div>
+					</div>
+				</div>
+				<div class="charter-cell" style="background-image: url('/src/img/victoria.png')">
+					<div class="charter-overlay">
+						<div class="charter-text">
+							<p>Victoria</p>
+							<a href="#">Book now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button id="myBtn" class="btn btn-dark">Book your trip today</button>
+		</section>
+		<!-- END OF CHARTERS -->
+		<!-- FOOTER -->
+		<footer>
+			<div class="container">
+				<a href="tel:6046046604">+1-604-604-6604</a>
+				<img src="/src/img/logo.png" alt="Northwest Charters Logo" />
+				<a href="mailto:info@nwcharters.com">info@nwcharters.com</a>
+			</div>
+		</footer>
+		<!-- END OF FOOTER -->
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+		<!-- END OF Modal -->
+		<!-- Modal content -->
+		<div class="modal-content">
+			<div id="modal-form">
+				<span class="close">&times;</span>
+				<h2 class="section-head">Book Your Trip</h2>
+				<form action="" method="post">
+					<input type="text" name="name" placeholder="Name">
+					<input type="email" name="email"  placeholder="Email">
+					<input type="text" name="trip-date" placeholder="Trip Date" >
+					<input type="text" name="location" placeholder="Location">
+					<textarea name="message" placeholder="Message"></textarea>
+					<button class="btn" type="submit">Send Message</button>
+				</form>
+			</div>
+		</div>
+		<!-- END OF Modal Content -->
+		<script src="/src/script.js"></script>
+	</body>
+</html>
