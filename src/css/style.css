@@ -602,6 +602,29 @@ footer a:last-child {
   text-align: center;
 }
 
+#modal-form2 {
+  background-image: url("/src/img/modal-bg.png");
+  background-color: #242b1c;
+  width: 83%;
+  height: 632px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  height: 634px;
+}
+
+#modal-form2 .close {
+  margin-right: 55px;
+  margin-top: 35px;
+}
+
+#modal-form2 h2 {
+  color: white;
+  text-align: center;
+}
+
 form {
   display: -ms-grid;
   display: grid;
